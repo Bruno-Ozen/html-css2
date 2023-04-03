@@ -1,24 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código fonte</h2>
-    <p>O comando <code>window.document.getElementById('Teste');</code> é escrita em Javascript.</p>
-    <code>
-        int num1;
-        Scanner leitor = new Scanner(System.in);
-        System.out.println("Digite um número: ");
-        num1 = leitor.nextInt();
-        System.out.println("Digite outro número: ");
-        num2 = leitor.nextInt();
-        int soma = num1 + num2;
-        System.out.printf("A soma de %d com %d é %d", num1, num2, soma);
-    </code>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol sort type = A>
+        <li>Ter dinheiro</li>
+        <li>Comprar cebola;</li>
+        <li>Cheirar cebola;</li>
+        <li>Descascar cebola;</li>
+        <li>Fritar cebola;</li>
+        <li>Misturar cebola</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Perenaldo</li>
+        <li>Givaldo</li>
+        <li>Ronaldo</li>
+        <li>Roundscraudo</li>
+        <li>Erivaldo</li>
+    </ul>
+    <h2>Juntando listas versão 1.0: Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type = a>
+            <li>Assembly</li>
+            <li>Pascal</li>
+            <li>Visual Basic Antigo</li>
+        </ol>
+        <li>Novas</li>
+        <ol type = a>
+            <li>Python</li>
+            <li>Flutter</li>
+            <li>C#</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ul>
+        <li>SNES e Megadrive</li>
+        <ul type = "square">
+            <li>Super Mario World</li>
+            <li>Sonic 1 e 2</li>
+            <li>Yoshi's island</li>
+        </ul>
+        <li>PS2</li>
+        <ul type = "square">
+            <li>Need for speed undergound</li>
+            <li>Need for speed most wanted</li>
+            <li>Star wars battlefront II</li>
+        </ul>
+    </ul>
 </body>
 </html>
